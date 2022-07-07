@@ -4,28 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>ideaDiaz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <script src="https://kit.fontawesome.com/bd2d71fb0f.js" crossorigin="anonymous"></script>
+    <style>
+        .bg-jumbotron{
+            background-image: url(../img/gale1.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 0px!important;
+            height: 70vh;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <a href="../index.html" class="logo">White Wolf Record Label</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <ul class="navbar">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./historia.html">Historia</a></li>
-            <li><a href="./artista.html">Artista</a></li>
-            <li><a href="./galeria.html">Galeria</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </header>
-    <!----- home Nombre  y foto-------->
-    <section class="artista" id="artista">
-        <div class="artista-text">
-            <h1>Artistas</h1>         
-            
+<!-------- start header ----------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 bg-opacity-50 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">White Wolf Record Label</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="./historia.html">Historia</a>
+          <a class="nav-link" href="./artista.html">Artista</a>
+          <a class="nav-link" href="./galeria.html">Galeria</a>
+          <a class="nav-link" href="./contacto.html">Contacto</a>
         </div>
+      </div>
+    </div>
+  </nav>
+      
+  <div class="jumbotron bg-jumbotron text-center">
+    <div class="intro">
+        <h1 class="float-start">Artistas</h1>
+        
+    </div>
+
+  </div>
     </section>
    
    <!--    Artista imagenes ------->
@@ -72,15 +92,38 @@
         </div>
     </section>
 
-    <!------footer --------->
-<footer>
-    <p>White Wolf Record Label</p>
-    <p>Estoy disponible para el trabajo independiente. Conéctate conmigo por teléfono: (+56) 9 98989898 o email felipealfaro@gmail.com</p>
-    <div class="social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>			
+<!---- ----footer --------->
+<footer class="bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm text-center m-1">
+                <h3>White Wolf <span>Record Label</span></h3>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm text-center ">
+                <h4>Estoy disponible para el trabajo independiente</h4>
+                <h5>Conéctate conmigo por teléfono:</h5> 
+                <h5>(+56) 9 98989898</h5>                 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm text-lg-center">
+                <a href="#"><i class="fa-solid fa-envelope mx-2 fs-4"></i></i></a>
+                <a href="#"><i class="fab fa-facebook-f mx-2 fs-4"></i></a>
+                <a href="#"><i class="fab fa-instagram mx-2 fs-4"></i></a>
+                <a href="#"><i class="fa-brands fa-spotify mx-2 fs-4"></i></a>
+                <hr>
+               
+            </div>
+        </div>
     </div>
     
+    
+    
 </footer>
+<!-------- link de js ----------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 </html>
