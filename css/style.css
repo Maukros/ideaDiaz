@@ -93,7 +93,9 @@ section{
 }
 .jumbotron img{
     border-radius: 200%;
-    border: var(--main-color) 5px solid;   
+    border: var(--main-color) 5px solid;
+    background-size: cover;
+    background-position: center;
 }
 /* ------- Servicios ----------*/
 .servicio{
