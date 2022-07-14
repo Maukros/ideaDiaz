@@ -1,0 +1,40 @@
+@media (max-width: 768px){
+    
+    :root{       
+        --big-font: 4.8rem;
+        --big-font1: 3rem;
+        transition: .2s;  
+    
+    }
+    
+    .jumbotron h1{
+        margin: 25px 0;
+        font-size: var(--big-font);
+        transition: .2s; 
+    }
+    .jumbotron img{
+         border: var(--main-color) 2px solid;
+         transition: .2s; 
+    }
+    .jumbotron h3{
+        font-size: 18px;    
+        transition: .2s; 
+       
+    }
+    .text-artista h2{
+        font-size:var(--big-font1) ;
+    }
+    .contac-form h1{
+        font-size: var(--big-font1);
+    }
+    .contact-img img{
+        display: none;
+    }
+}
+@media (max-width: 560px){
+    .navbar-brand{
+        font-size: 1rem;
+        transition: .2s; 
+    }
+    
+}
