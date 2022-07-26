@@ -1,0 +1,14 @@
+/* Condicional body #34495e*/
+$vista: escritorio;
+
+@if ($vista == escritorio){
+    body {
+        background-color:  #34495e;
+    }
+}   @else {
+        body {
+            background-color: black;
+        }
+    }
+
+    

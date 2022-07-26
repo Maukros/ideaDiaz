@@ -1,0 +1,9 @@
+/*Bucles each*/
+$colores: 'pink', 'green', 'blue';
+
+@each $color in $colores {
+    .#{$color} {
+        color:#{$color};
+    }
+    }
+    
