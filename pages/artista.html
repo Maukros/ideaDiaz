@@ -9,10 +9,11 @@
     <meta name="keywords" content="Mezcla de Audio, ingeniero Mezcla, Masterizacion audio, Mixing Audio, Grabacion de Audio">
     <meta name="description" content=" Felipe Alfaro Mezcla de Audio. Análogo - Digital. El sonido que nuestros clientes buscan. Mezcla de audio profesional para bandas, solistas.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <script src="https://kit.fontawesome.com/bd2d71fb0f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <style>
         .bg-jumbotron{
             background-image: url(../img/gale1.jpg);
@@ -55,26 +56,26 @@
    <!--    Artista imagenes ------->
 
    <section class="artistax" id="artistax">
-    <div class="text-artista">
+    <div class="text-artista" data-aos="flip-down" data-aos-duration="2000">
         <h2>Artistas con quien he Trabajado</h2>
         <p>Escucha la música en la que he trabajado.
         </p>
     </div>
     <div class="contenedor-columnas"> 
-        <div class="columnax3">
+        <div class="columnax3" data-aos="zoom-in-right" data-aos-duration="2000">
             <img src="../img/artista2.png" alt="" >
             <h4>Rosewell</h4>
             <p>"Los músicos habían experimentado en grupos previos el sonido hardcore, pero fue en Rosewell donde exhibieron un emo-rock o rock emotivo entonces novedoso en Chile. El cantante Helmut Schmied desdobla su voz entre ingenuas y dulces frases y graves gritos desaforados "parte del estilo screamo", acompañado de bruscos cambios de ritmo. Ése fue el sonido de su primer EP, el 2004, y luego de Al tope de lo real (2005), con canciones como "Aires de esperanza", "Al tope de lo real", "Sutil invitación" o "Dulce revancha" (en la que Schmied canta en compañía de la ex Supernova Elisa Montes). No han faltado cambios de integrantes, entre bajistas y guitarristas, al punto de que en abril de 2007 se anunció su separación, pero dos meses después el guitarrista y fundador Frank Millard se unió a la banda metalera Aneurisma, y Rosewell, con formación renovada, retomó su sonido y publicó el álbum Proeza (2009).        
             </p> 
         </div>
-        <div class="columnax3">
+        <div class="columnax3" data-aos="zoom-out" data-aos-duration="2000">
             <img src="../img/jaimeok.png" alt="" >           
             <h4>Jaime</h4>
             <p>"Comienza su carrera como solista en el año 2006, presentándose en diversos escenarios de la escena nacional. Posteriormente en el año 2008 se une a la banda referente del Electro Pop chileno Lulu Jam, sacando dos álbumes "Suban el Volumen" y "Temporada Alta". 
                 En el año 2018 y actualmente se une al productor musical Felipe "Stevell" Alfaro quien siguiendo la línea melódica Electro Pop lanza su primer single solista "Quédate un Ratito más", planeando dar un nuevo comienzo a su carrera como artista, generando un nuevo espacio para el género musical en Chile."
             </p>          
         </div>
-        <div class="columnax3">
+        <div class="columnax3" data-aos="zoom-in-left" data-aos-duration="2000">
             <img src="../img/artista1.png" alt="" >           
             <h4>Rocko de la Rosa</h4>
             <p>"Actor, poeta y músico, Juan Carlos Salas es Rocko de la Rosa, el nombre de fantasía de un trovador urbano en un constante choque de contradicciones. Rocko, por la dureza de una gran piedra, y Rosa por la delicadeza de una flor. Proveniente de Agua Santa, en Viña del Mar, y establecido más tarde en Concón, Rocko de la Rosa ha sido uno de los cantores de los puertos y ciudades de la Quinta Región, a la zaga de la generación que impulsó Chinoy con guitarra y canto, y junto con otros aguerridos trovadores como Lautaro Rodríguez, Demian Rodríguez y Kaskivano. Sus canciones transitan entre la raíz del blues y arremeten en rumbos del rock y el reggae, pero siguen siendo piezas para guitarra y voz. “Es mejor vivir como un bandido que como un aburrido”, canta en "Oveja negra", una de las canciones de su primer disco, Rocko de la Rosa (2015), un brindis por los derrotados."
@@ -84,11 +85,11 @@
     </div>
 </section>
 <section class="artistaxx" id="artistaxx">
-    <div class="text-artista">
+    <div class="text-artista" data-aos="flip-down" data-aos-duration="2000">
         <h2>Camino 51</h2>
     </div>
     <div class="contenedor-artxx"> 
-        <div class="columna">
+        <div class="columna" data-aos="zoom-in"data-aos-duration="2000" >
             <img src="../img/cam51.png" alt="" >
             
             <h5>"Banda de rock pop melódico que mezcla 5 caminos, el de cada uno de nosotros cuatro y el que formamos entre todos, para generar música que sale de nuestras entrañas, intensa y del alma.""      
@@ -128,6 +129,10 @@
 </footer>
 <!-------- link de js ----------->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>

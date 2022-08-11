@@ -1,3 +1,4 @@
+/*  Media */
 @import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Josefin+Sans&family=Oswald:wght@200&family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
@@ -11,19 +12,6 @@
   scroll-padding-top: 3.5rem;
 }
 
-/*:root{
-    --bg-color: #101010;
-    --secound-bg-color: #191919;
-    --text-color: #fff;
-    --secound-color: #c6c9d8bf;
-    --main-color: #f9004d;
-    --big-font: 7.0rem;
-    --big-font1: 5.0rem;
-    --big-font2: 9rem;
-    --h2-font: 4,2rem;
-    --p-font: 1.1rem;
-
-}*/
 body {
   /*background: $bgcolor;*/
   color: #fff;
@@ -60,13 +48,6 @@ section {
   padding: 120px 10%;
 }
 
-/*.jumbotron {
-    background: url(../img/portada.png);
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    border-radius: 0px!important;
-}*/
 .jumbotron h1 {
   margin: 30px 0;
   font-size: 7rem;
@@ -312,7 +293,7 @@ h5 {
 
 .artista-text h1 {
   margin: 1px 2px 3px;
-  font-size: 9rem;
+  font-size: 6rem;
   font-family: "Inspiration";
   font-weight: normal;
   text-shadow: 4px 4px rgb(10, 0, 0);
@@ -399,7 +380,7 @@ h5 {
 .galeria-text h1 {
   /*background: rgba(54, 1, 20, 0.2);*/
   margin: 1px 2px 3px;
-  font-size: 9rem;
+  font-size: 6rem;
   font-family: "Inspiration";
   font-weight: normal;
   text-shadow: 4px 4px rgb(10, 0, 0);
@@ -411,7 +392,7 @@ h5 {
 }
 
 .text-galeriax h2 {
-  font-size: 9rem;
+  font-size: 6rem;
   margin-bottom: 15px;
 }
 
@@ -446,7 +427,7 @@ h5 {
 .contacto-text h1 {
   /*background: rgba(54, 1, 20, 0.2);*/
   margin: 1px 2px 3px;
-  font-size: 9rem;
+  font-size: 6rem;
   font-family: "Inspiration";
   font-weight: normal;
   text-shadow: 4px 4px rgb(10, 0, 0);
@@ -535,29 +516,27 @@ h5 {
 }
 
 @media (max-width: 768px) {
-  :root {
-    --big-font: 4.8rem;
-    --big-font1: 3rem;
-    transition: 0.2s;
-  }
   .jumbotron h1 {
     margin: 25px 0;
-    font-size: var(--big-font);
+    font-size: 4.8rem;
     transition: 0.2s;
   }
   .jumbotron img {
-    border: var(--main-color) 2px solid;
+    border: #f9004d 3px solid;
     transition: 0.2s;
   }
   .jumbotron h3 {
     font-size: 18px;
     transition: 0.2s;
   }
+  .text-galeriax h2 {
+    font-size: 2.8rem;
+  }
   .text-artista h2 {
-    font-size: var(--big-font1);
+    font-size: 2.8rem;
   }
   .contac-form h1 {
-    font-size: var(--big-font1);
+    font-size: 2.8rem;
   }
   .contact-img img {
     display: none;
